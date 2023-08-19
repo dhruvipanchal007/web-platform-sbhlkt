@@ -3,5 +3,5 @@ let name=prompt('enter your name');
 let adress=prompt('enter your address');
 
 
-console.log('name');
+alert('name');
 console.log('adress');
