@@ -6,3 +6,4 @@ function calcareaofcircle(r) {
 let r = prompt('enter raddius');
 const area = calcareaofcircle(r);
 console.log(area);
+
