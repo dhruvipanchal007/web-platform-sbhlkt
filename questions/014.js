@@ -1,10 +1,10 @@
 function checknumber(number) {
   if (number > 0) {
-    return positive;
+    return 'positive';
   } else if (number < 0) {
-    return negative;
+    return 'negative';
   } else {
-    return zero;
+    return 'zero';
   }
 }
 let number = prompt('enter number');
