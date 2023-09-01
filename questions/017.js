@@ -20,3 +20,5 @@ function daysnumber(number) {
 let number = prompt('enter number between 1 to 7');
 const Days = daysnumber(number);
 console.log(Days);
+
+
