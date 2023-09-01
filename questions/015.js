@@ -1,0 +1,3 @@
+function findcharacter(c){
+  if()
+}
