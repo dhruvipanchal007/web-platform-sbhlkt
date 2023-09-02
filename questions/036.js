@@ -1,4 +1,4 @@
-let basis=200000;
+let basis=10000;
 let Dapercentage=10;
 let Hrapercentage=7.50;
 let Ma=300;
