@@ -1,4 +1,4 @@
-let basis=10000;
+let basis=prompt('enter salery');
 let Dapercentage=10;
 let Hrapercentage=7.50;
 let Ma=300;
