@@ -16,6 +16,9 @@ else{
   if(originalNum===reverseNum){
     console.log('plaindrome');
   }
+  else{
+    console.log('not');
+  }
 }
 
 
