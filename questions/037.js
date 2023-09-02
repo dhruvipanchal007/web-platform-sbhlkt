@@ -1,11 +1,14 @@
-function sum(a,b,c,d,e){
-  let i=a+b+c+d+e;
-  return i
+function calculateseriessum(n){
+  let sum=0;
+
+  if(n<0){
+    return pleaseenterpositivevalue;
+  }
+  for(let i=0;i<=n;i++){
+    sum+=1/n;
+  }
+  return sum;
 }
-let a=prompt('enter value');
-let b=prompt('enter value');
-let c=prompt('enter value');
-let d=prompt('enter value');
-let e=prompt('enter value');
-const M=sum(a,b,c,d,e);
-console.log(M); 
+let n=2;
+let series=calculateseriessum(n);
+console.log(series);
