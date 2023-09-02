@@ -13,8 +13,9 @@ else{
     reverseNum=reverseNum*10+digit;
     num=Math.floor(num/10);
   }
-  if(num===reverseNum){
+  if(originalNum===reverseNum){
     console.log('plaindrome');
   }
 }
+
 
