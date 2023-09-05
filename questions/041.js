@@ -1,14 +1,34 @@
-
-function calcsum(a,b,c,d,e){
-  let sum=(+a+ +b+ +c+ +d+ +e);
-  return sum;
+let number=[10,20,30,40,50];
+let totalnumber=0;
+for(let i=0;i<number.length;i++){
+  totalnumber=totalnumber+number[i];
 }
 
-let total=calcsum(a,b,c,d,e);
-console.log(total);
+let numberofinput=5;
+let average=totalnumber/numberofinput;
+console.log(totalnumber);
+console.log(average);
 
-let a=prompt('enter 1 no');
-let b=prompt('enter 2 no');
-let c=prompt('enter 3 no');
-let d=prompt('enter 4 no');
-let e=prompt('enter 5 no');
+function findmaxvalue(number){
+  let maxnumber=number[0];
+  for(let i=0;i<number.length;i++){
+    if(maxnumber<number[i]){
+      maxnumber=number[i];
+    }
+  }
+  return maxnumber;
+}
+let largevalue=findmaxvalue(number);
+console.log(largevalue);
+
+function findminvalue(number){
+  let smallnumber=number[0];
+  for(let i=0;i<number.length;i++){
+    if(smallnumber>number[i]){
+      smallnumber=number[i];
+    }
+  }
+  return smallnumber;
+}
+let smallvalue=findminvalue(number);
+console.log(smallvalue);
