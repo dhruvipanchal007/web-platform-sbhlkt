@@ -17,6 +17,6 @@ function isarmstrong(number) {
     return false;
   }
 }
-let number=371;
+let number=prompt('enter number');
 let Arm=isarmstrong(number);
 console.log(Arm);
